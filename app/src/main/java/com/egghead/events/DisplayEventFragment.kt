@@ -24,6 +24,9 @@ import com.google.firebase.auth.FirebaseAuth
 import java.text.SimpleDateFormat
 import java.util.*
 
+// Goals:
+// Show additional data
+
 class DisplayEventFragment : Fragment() {
 
     val args: DisplayEventFragmentArgs by navArgs()

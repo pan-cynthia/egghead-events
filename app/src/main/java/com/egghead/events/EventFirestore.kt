@@ -8,6 +8,9 @@ import com.google.firebase.firestore.FirebaseFirestoreSettings
 import java.util.*
 import kotlin.collections.ArrayList
 
+// Goals:
+// Create an easy API for interacting with firebase
+
 enum class ResponseType {
     SUCCESS,
     FAILURE
@@ -39,7 +42,6 @@ class EventFirestore {
                         completion(ResponseType.FAILURE)
                     }
             }
-
         }
 
         fun postEvent(event: Event, completion: (response: ResponseType) -> Unit) {

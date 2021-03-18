@@ -9,6 +9,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 
+// Goals:
+// Define an easy to use event type
+
 @Parcelize
 data class Event(
         @DocumentId

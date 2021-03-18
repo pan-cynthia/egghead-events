@@ -29,6 +29,9 @@ import io.grpc.okhttp.internal.Platform
 import java.text.SimpleDateFormat
 import java.util.*
 
+// Goals:
+// Allow a user to update an event if they created it
+
 class UpdateEventFragment : Fragment() {
 
     val args: UpdateEventFragmentArgs by navArgs()

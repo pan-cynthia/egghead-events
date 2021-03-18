@@ -28,6 +28,8 @@ import com.google.firebase.auth.FacebookAuthProvider
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
+// Goals:
+// Allow user to login using google, facebook, or remain anonymous
 
 class LoginFragment : Fragment() {
     private lateinit var auth: FirebaseAuth

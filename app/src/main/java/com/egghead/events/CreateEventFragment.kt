@@ -31,6 +31,9 @@ import com.google.firebase.storage.StorageMetadata
 import java.text.SimpleDateFormat
 import java.util.*
 
+// Goals:
+// Use firebase storage to upload image
+// Create popups for opening date/time/etc
 
 class CreateEventFragment : Fragment() {
 
@@ -165,8 +168,6 @@ class CreateEventFragment : Fragment() {
         } ?: run {
             completion(ResponseType.FAILURE, "")
         }
-
-
     }
 
     private fun chooseImage() {

@@ -24,6 +24,9 @@ import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.time.milliseconds
 
+// Goals:
+// Show all the events as individual tiles with options to modify and filter
+
 class EventListAdapter(private var events: List<Event>) : RecyclerView.Adapter<ItemViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.event_item, parent, false)

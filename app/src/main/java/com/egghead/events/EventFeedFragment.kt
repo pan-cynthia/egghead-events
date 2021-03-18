@@ -24,6 +24,9 @@ import kotlinx.android.synthetic.main.fragment_event_feed.*
 import java.text.SimpleDateFormat
 import java.util.*
 
+// Goals:
+// Show all events in a feed
+
 class EventFeedFragment : Fragment() {
 
     private lateinit var auth : FirebaseAuth
